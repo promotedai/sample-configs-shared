@@ -11,7 +11,7 @@ CONTENT_FIELDS = {
     #
     # Example of json object path components indicating that from a blob like
     # Item = {"item_name": "Houseplant", "item_properties": {"size": "Gmall, "color": "Green"}}
-    # The displayed name in introspectoin will be: "Houseplant Green"
+    # The displayed name in introspection will be: "Houseplant Green"
     "content_name_fields": [["item_name"], ["item_properties", "color"]],
     #
     # This template will typically include a formatted token for one or more of the content fields
